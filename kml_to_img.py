@@ -4,9 +4,16 @@ gpd.io.file.fiona.drvsupport.supported_drivers['KML'] = 'rw'
 
 
 # Filepath to KML file
-fp = "./files/417-94-11688-19052021.kml"
+fp = "./files/417-86-11687-19052021.kml"
 
 polys = gpd.read_file(fp, driver='KML')
-print(polys)
-polys.plot()
+
+
+
+polys.plot("Name")
+
+plt.savefig('./files/test.jpg')
+
+polys.plot("Name",legend=True)
+
 plt.savefig('./files/test2.jpg')
