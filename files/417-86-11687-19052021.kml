@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Stanley Black and Decker</name>
+	<gx:CascadingStyle kml:id="__managed_style_25713042B61711DFBBAF">
+		<Style>
+			<IconStyle>
+				<scale>1.2</scale>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>6</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<gx:CascadingStyle kml:id="__managed_style_191ECA3FD91711DFBBAF">
+		<Style>
+			<IconStyle>
+				<Icon>
+					<href>https://earth.google.com/earth/rpc/cc/icon?color=1976d2&amp;id=2000&amp;scale=4</href>
+				</Icon>
+				<hotSpot x="64" y="128" xunits="pixels" yunits="insetPixels"/>
+			</IconStyle>
+			<LabelStyle>
+			</LabelStyle>
+			<LineStyle>
+				<color>ff2dc0fb</color>
+				<width>4</width>
+			</LineStyle>
+			<PolyStyle>
+				<color>40ffffff</color>
+			</PolyStyle>
+			<BalloonStyle>
+				<displayMode>hide</displayMode>
+			</BalloonStyle>
+		</Style>
+	</gx:CascadingStyle>
+	<StyleMap id="__managed_style_0F11B126031711DFBBAF">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#__managed_style_191ECA3FD91711DFBBAF</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#__managed_style_25713042B61711DFBBAF</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Placemark id="09AFFBA6ED17112D01CD">
+		<name>Estação de Tratamento de Efluentes</name>
+		<LookAt>
+			<longitude>-47.98504517818904</longitude>
+			<latitude>-19.70128740516752</latitude>
+			<altitude>767.1405837536411</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>301.0960444924785</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0F11B126031711DFBBAF</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-47.98578124797646,-19.70133827738426,765.9956336275518 -47.98564608266532,-19.70170145143859,767.8652985439105 -47.98549469269109,-19.70166555451641,768.1587384147011 -47.98559607654719,-19.70139031105593,766.6297787922424 -47.98519956528837,-19.70128054896004,766.8205352985343 -47.98516174995961,-19.70123390287972,766.6822701274154 -47.98519112757803,-19.70114862478863,766.194464054259 -47.98578124797646,-19.70133827738426,765.9956336275518 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="0C874358B917113015E3">
+		<name>ETE</name>
+		<LookAt>
+			<longitude>-47.98395019832453</longitude>
+			<latitude>-19.70219398303892</latitude>
+			<altitude>771.5677439674207</altitude>
+			<heading>1.605682637015696e-08</heading>
+			<tilt>0.2872157633623527</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>661.924192819788</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0F11B126031711DFBBAF</styleUrl>
+		<Point>
+			<coordinates>-47.98568041158624,-19.70139138140543,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01748B35A217112DFF7B">
+		<name>Central de Resíduos Industriais</name>
+		<LookAt>
+			<longitude>-47.98235109547372</longitude>
+			<latitude>-19.70207412819914</latitude>
+			<altitude>772.9950961956356</altitude>
+			<heading>2.478205937786251e-09</heading>
+			<tilt>0.3452441516282665</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>184.629928832801</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0F11B126031711DFBBAF</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-47.98237167097492,-19.70218423580775,773.4361748364688 -47.98274319764919,-19.70128675340817,770.2029699729765 -47.98286656081292,-19.70133633241336,770.2372698549259 -47.98270561729788,-19.70176890254544,770.9539209498589 -47.98262228723687,-19.70174673439048,771.2284276743438 -47.98244382086547,-19.70222267619641,773.3561396844357 -47.98237167097492,-19.70218423580775,773.4361748364688 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="0E8B0E89FA17113058F1">
+		<name>Central de Resíduos Industriais</name>
+		<LookAt>
+			<longitude>-47.98395019832453</longitude>
+			<latitude>-19.70219398303892</latitude>
+			<altitude>771.5677439674207</altitude>
+			<heading>1.605682637015696e-08</heading>
+			<tilt>0.2872157633623527</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>661.924192819788</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0F11B126031711DFBBAF</styleUrl>
+		<Point>
+			<coordinates>-47.98266668036897,-19.70166791624614,772.0150030174482</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0CA9EE1B6017112E9640">
+		<name>Galpão de Manufatura</name>
+		<LookAt>
+			<longitude>-47.98381412589927</longitude>
+			<latitude>-19.70207341602146</latitude>
+			<altitude>771.5675606360616</altitude>
+			<heading>-1.152730936818913e-08</heading>
+			<tilt>0.345265204338693</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>573.2110041662964</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0F11B126031711DFBBAF</styleUrl>
+		<Point>
+			<coordinates>-47.98401884577202,-19.70175822209357,771.7012940512304</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="038983045917112EDDA0">
+		<name>Centro de Distribuição</name>
+		<LookAt>
+			<longitude>-47.98381412589927</longitude>
+			<latitude>-19.70207341602146</latitude>
+			<altitude>771.5675606360616</altitude>
+			<heading>-1.152730936818913e-08</heading>
+			<tilt>0.345265204338693</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>573.2110041662964</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0F11B126031711DFBBAF</styleUrl>
+		<Point>
+			<coordinates>-47.98192079728938,-19.70111463708827,773.4911392744865</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="074F4BA5FF17112F9DDE">
+		<name>Administrativo</name>
+		<LookAt>
+			<longitude>-47.9838606530342</longitude>
+			<latitude>-19.7017655068959</latitude>
+			<altitude>770.9515912799981</altitude>
+			<heading>-3.752771090344886e-09</heading>
+			<tilt>0.2872301285882697</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>980.604270730546</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0F11B126031711DFBBAF</styleUrl>
+		<Point>
+			<coordinates>-47.985109907035,-19.70183226057517,770.3061241189611</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B6D6D363B17112FCF01">
+		<name>Portaria</name>
+		<LookAt>
+			<longitude>-47.98441818598058</longitude>
+			<latitude>-19.70281397347576</latitude>
+			<altitude>771.5342496343675</altitude>
+			<heading>1.873996266493967e-08</heading>
+			<tilt>0.287197640000672</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>259.8004693579787</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0F11B126031711DFBBAF</styleUrl>
+		<Point>
+			<coordinates>-47.98496914765232,-19.70304856219486,772.1929420305304</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0CE9085C55171130AC6E">
+		<name>Restaurante/Refeitório</name>
+		<LookAt>
+			<longitude>-47.98386094566503</longitude>
+			<latitude>-19.70211090679</latitude>
+			<altitude>771.022117833211</altitude>
+			<heading>9.754849246495545e-09</heading>
+			<tilt>0.2872060819207702</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>447.1289429066383</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0F11B126031711DFBBAF</styleUrl>
+		<Point>
+			<coordinates>-47.98344841610643,-19.70248517530014,772.8935296193375</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="07FBD11DA917113102CE">
+		<name>Estacionamento Externo</name>
+		<LookAt>
+			<longitude>-47.98439013726387</longitude>
+			<latitude>-19.70248891262909</latitude>
+			<altitude>770.9276459481232</altitude>
+			<heading>1.923746586508812e-08</heading>
+			<tilt>0.2872065423107079</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>457.3755278075987</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0F11B126031711DFBBAF</styleUrl>
+		<Point>
+			<coordinates>-47.98520049121029,-19.70315024546084,771.7928221332802</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0B7086A9B81711312F12">
+		<name>Estacionamento Interno</name>
+		<LookAt>
+			<longitude>-47.98439013726387</longitude>
+			<latitude>-19.70248891262909</latitude>
+			<altitude>770.9276459481232</altitude>
+			<heading>1.923746586508812e-08</heading>
+			<tilt>0.2872065423107079</tilt>
+			<gx:fovy>35</gx:fovy>
+			<range>457.3755278075987</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0F11B126031711DFBBAF</styleUrl>
+		<Point>
+			<coordinates>-47.9849197312821,-19.70234969756289,771.2821891112712</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0F4BADCDE01711327EB6">
+		<name>Recebimento de Matéria Prima</name>
+		<LookAt>
+			<longitude>-47.98413878143328</longitude>
+			<latitude>-19.70157023911832</latitude>
+			<altitude>770.0332034339558</altitude>
+			<heading>1.625086245580637e-08</heading>
+			<tilt>0.2869150271995558</tilt>
+			<gx:fovy>34.99954328677111</gx:fovy>
+			<range>518.201243490621</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0F11B126031711DFBBAF</styleUrl>
+		<Point>
+			<coordinates>-47.98438958875883,-19.70112858392141,768.8098554923149</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="059EA2FD11171132D92B">
+		<name>Expedição/Recebimento de Produto Acabdado</name>
+		<LookAt>
+			<longitude>-47.98238557327776</longitude>
+			<latitude>-19.70071903371355</latitude>
+			<altitude>770.8588047815483</altitude>
+			<heading>2.05736733056515e-08</heading>
+			<tilt>0.2869149898440377</tilt>
+			<gx:fovy>34.99954328677111</gx:fovy>
+			<range>517.3756574014261</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0F11B126031711DFBBAF</styleUrl>
+		<Point>
+			<coordinates>-47.98237059334217,-19.70049100251981,771.0644517861264</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="02E31D063D1711336D0F">
+		<name>Área de Expansão Manufatura</name>
+		<LookAt>
+			<longitude>-47.98364368172384</longitude>
+			<latitude>-19.7019926783033</latitude>
+			<altitude>771.5675435400357</altitude>
+			<heading>4.649274686252115e-10</heading>
+			<tilt>0.2869149573804155</tilt>
+			<gx:fovy>34.99954328677111</gx:fovy>
+			<range>516.6668400578055</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0F11B126031711DFBBAF</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-47.98324386448803,-19.70151972776551,770.7453765640676 -47.98347375425018,-19.70158558666266,770.6931051968179 -47.98325970099709,-19.70208888430292,771.5675427393446 -47.98302028607715,-19.7020137671368,771.5676610096093 -47.98324386448803,-19.70151972776551,770.7453765640676 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="0ABC2F5C9D1711339B9B">
+		<name>Expansão</name>
+		<LookAt>
+			<longitude>-47.98226955018894</longitude>
+			<latitude>-19.70159587025137</latitude>
+			<altitude>772.6135603973097</altitude>
+			<heading>7.485206447315014e-09</heading>
+			<tilt>0.2869149101686786</tilt>
+			<gx:fovy>34.99954328677111</gx:fovy>
+			<range>515.6208349986993</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0F11B126031711DFBBAF</styleUrl>
+		<Point>
+			<coordinates>-47.98322622115776,-19.70179516726727,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="06FBDE754F171134030D">
+		<name>Área expansão distribuição</name>
+		<LookAt>
+			<longitude>-47.98226955018894</longitude>
+			<latitude>-19.70159587025137</latitude>
+			<altitude>772.6135603973097</altitude>
+			<heading>7.485206447315014e-09</heading>
+			<tilt>0.2869149101686786</tilt>
+			<gx:fovy>34.99954328677111</gx:fovy>
+			<range>515.6208349986993</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0F11B126031711DFBBAF</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-47.98109581476257,-19.70137447388696,775.305836350598 -47.98248365852726,-19.70185598962074,772.2549895667867 -47.98234398601129,-19.7021915585561,773.820917610177 -47.9809016663017,-19.7016913141601,776.612020077254 -47.98109581476257,-19.70137447388696,775.305836350598 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+	<Placemark id="08264F52631711343333">
+		<name>Expansaão</name>
+		<LookAt>
+			<longitude>-47.98226955018894</longitude>
+			<latitude>-19.70159587025137</latitude>
+			<altitude>772.6135603973097</altitude>
+			<heading>7.485206447315014e-09</heading>
+			<tilt>0.2869149101686786</tilt>
+			<gx:fovy>34.99954328677111</gx:fovy>
+			<range>515.6208349986993</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0F11B126031711DFBBAF</styleUrl>
+		<Point>
+			<coordinates>-47.98166000257068,-19.70178954939884,0</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0FBD38D78B1711348709">
+		<name>Banheiros</name>
+		<LookAt>
+			<longitude>-47.98388457720424</longitude>
+			<latitude>-19.70264728565161</latitude>
+			<altitude>771.5392613615905</altitude>
+			<heading>9.506731972773485e-09</heading>
+			<tilt>0.2869001812899493</tilt>
+			<gx:fovy>34.99954328677111</gx:fovy>
+			<range>188.5343576881496</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0F11B126031711DFBBAF</styleUrl>
+		<Point>
+			<coordinates>-47.98426776986462,-19.70279347105329,772.4012545499854</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="0374101D00171134BF82">
+		<name>Central de GLP</name>
+		<LookAt>
+			<longitude>-47.98394646057042</longitude>
+			<latitude>-19.70268284307968</latitude>
+			<altitude>771.5597545807353</altitude>
+			<heading>1.36212231761984e-08</heading>
+			<tilt>0.2869044311316228</tilt>
+			<gx:fovy>34.99954328677111</gx:fovy>
+			<range>282.9299288438779</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0F11B126031711DFBBAF</styleUrl>
+		<Point>
+			<coordinates>-47.98382379612865,-19.70263537022896,772.5152688156542</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="041949C0BD171135117A">
+		<name>Oficinas de Utilidades</name>
+		<LookAt>
+			<longitude>-47.9827142632192</longitude>
+			<latitude>-19.70226644114422</latitude>
+			<altitude>772.7485330096475</altitude>
+			<heading>2.565067083203457e-08</heading>
+			<tilt>0.2868977651699189</tilt>
+			<gx:fovy>34.99954328677111</gx:fovy>
+			<range>134.9089139006355</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0F11B126031711DFBBAF</styleUrl>
+		<Point>
+			<coordinates>-47.98297133243232,-19.70241862605421,773.7095967842063</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="04AC4A7A7B1711354C7D">
+		<name>Moinhos / Serralheria</name>
+		<LookAt>
+			<longitude>-47.98251213354984</longitude>
+			<latitude>-19.70223186472124</latitude>
+			<altitude>773.3706021485301</altitude>
+			<heading>1.235722742218256e-08</heading>
+			<tilt>0.2869045987555086</tilt>
+			<gx:fovy>34.99954328677111</gx:fovy>
+			<range>286.6942722886961</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0F11B126031711DFBBAF</styleUrl>
+		<Point>
+			<coordinates>-47.98261723262333,-19.70223315262185,773.9249269133483</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="01BD9296F41711358461">
+		<name>Laboratório de Testes</name>
+		<LookAt>
+			<longitude>-47.98274920475371</longitude>
+			<latitude>-19.70207191618008</latitude>
+			<altitude>771.754116486814</altitude>
+			<heading>1.172920964616505e-08</heading>
+			<tilt>0.286900560175557</tilt>
+			<gx:fovy>34.99954328677111</gx:fovy>
+			<range>197.0101508204243</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0F11B126031711DFBBAF</styleUrl>
+		<Point>
+			<coordinates>-47.98290940796313,-19.70192195041063,771.8012142602122</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="010D1FEE3C171135DC02">
+		<name>Armazenamento de Produtos Inflamáveis</name>
+		<LookAt>
+			<longitude>-47.98274920475371</longitude>
+			<latitude>-19.70207191618008</latitude>
+			<altitude>771.754116486814</altitude>
+			<heading>1.173175036091578e-08</heading>
+			<tilt>0.2869005601768274</tilt>
+			<gx:fovy>34.99954328677111</gx:fovy>
+			<range>197.0101508204243</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0F11B126031711DFBBAF</styleUrl>
+		<Point>
+			<coordinates>-47.98314332767342,-19.70160983983214,771.3480284385927</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="09A8E0E4061711371F98">
+		<name>Armazenamento de Produtos Químicos, Óleos e Graxas</name>
+		<LookAt>
+			<longitude>-47.9827470441442</longitude>
+			<latitude>-19.7019217413569</latitude>
+			<altitude>771.1346523522247</altitude>
+			<heading>1.713366479210369e-08</heading>
+			<tilt>0.2868946178611416</tilt>
+			<gx:fovy>34.99954328677111</gx:fovy>
+			<range>65.16856621346051</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0F11B126031711DFBBAF</styleUrl>
+		<Point>
+			<coordinates>-47.98264422978558,-19.70183882199544,772.1567874455058</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="08742D24F91711374FCA">
+		<name>Centro de Testes</name>
+		<LookAt>
+			<longitude>-47.98278957888689</longitude>
+			<latitude>-19.70191285238846</latitude>
+			<altitude>770.9210558255348</altitude>
+			<heading>1.098490539513162e-08</heading>
+			<tilt>0.2868972909722582</tilt>
+			<gx:fovy>34.99954328677111</gx:fovy>
+			<range>124.5764791716465</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0F11B126031711DFBBAF</styleUrl>
+		<Point>
+			<coordinates>-47.98257763047514,-19.70198071849382,772.7617017321951</coordinates>
+		</Point>
+	</Placemark>
+	<Placemark id="095673138A1711E0D934">
+		<name>Limite da Propriedade</name>
+		<LookAt>
+			<longitude>-47.98495660206744</longitude>
+			<latitude>-19.70096179637595</latitude>
+			<altitude>765.5867708977704</altitude>
+			<heading>0</heading>
+			<tilt>0</tilt>
+			<gx:fovy>30.0000000000413</gx:fovy>
+			<range>606.1145268350083</range>
+			<altitudeMode>absolute</altitudeMode>
+		</LookAt>
+		<styleUrl>#__managed_style_0F11B126031711DFBBAF</styleUrl>
+		<Polygon>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-47.98582732758689,-19.70133138234785,765.9184004653574 -47.98527261956563,-19.70292064428784,770.6105909441989 -47.98538078340738,-19.70295456609011,770.2224623213062 -47.98520384501703,-19.70342925607191,770.9006095613996 -47.98492343172857,-19.70351044884377,771.7249422367474 -47.98496576879973,-19.70341284545772,771.5652138956385 -47.98498852875998,-19.70332108355931,771.5487283060886 -47.98497228565918,-19.70320176851165,771.5392667344252 -47.98078307810776,-19.70179540325807,777.4802061696777 -47.98160893975451,-19.69979664975166,770.1479596243277 -47.98582732758689,-19.70133138234785,765.9184004653574 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
