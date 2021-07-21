@@ -8,7 +8,7 @@ gpd.io.file.fiona.drvsupport.supported_drivers['KML'] = 'rw'
 
   
 # #Leitura do arquivo kml
-fp = "./files/teste.kml"
+fp = "./files/417-86-11687-19052021.kml"
 polys = gpd.read_file(fp, driver='KML')
 
 plt.tight_layout()
@@ -17,8 +17,15 @@ plt.rcParams.update({'font.size': 6})
 #lg = plt.legend(list(polys["Name"]),bbox_to_anchor=(1.05, 1.0), loc='upper left')
 
 
-fig = polys.plot("Name",legend=True, figsize=(12, 5),facecolor="white", edgecolor="black",cmap="tab20",legend_kwds={'bbox_to_anchor': (1, 1)}) 
-
+fig = polys.plot(
+                    "Name",
+                    legend=True,
+                    figsize=(12, 5),
+                    facecolor="white",
+                    edgecolor="black",
+                    cmap="tab20",
+                    legend_kwds={'bbox_to_anchor': (1, 1)}
+                )
 
 
 plt.axis('off') 

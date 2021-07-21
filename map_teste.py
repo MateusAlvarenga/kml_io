@@ -28,9 +28,18 @@ plt.rcParams.update({'font.size': 6})
 #lg = plt.legend(list(polys["Name"]),bbox_to_anchor=(1.05, 1.0), loc='upper left')
 
 
-fig = polys.plot(legend=True, facecolor="white", edgecolor="black",cmap="tab20",legend_kwds={'bbox_to_anchor': (1, 1)}) 
+fig = polys.plot(
+                    legend=True,
+                    facecolor="white",
+                    figsize=(20, 20),
+                    edgecolor="black",
+                    cmap="tab20",
+                    legend_kwds={'bbox_to_anchor': (1, 1)},                    
+                    alpha=0.5
+                   
+                ) 
 
-ctx.add_basemap(fig, zoom=15,crs='EPSG:900913', source=ctx.providers.CartoDB.Voyager)
+ctx.add_basemap(fig, zoom=4,crs='EPSG:900913', source=ctx.providers.CartoDB.Voyager)
 
 plt.axis('off') 
 plt.savefig('./files/legenda.jpg')

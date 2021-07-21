@@ -17,9 +17,18 @@ plt.rcParams.update({'font.size': 6})
 #lg = plt.legend(list(polys["Name"]),bbox_to_anchor=(1.05, 1.0), loc='upper left')
 
 
-fig = polys.plot("Name",legend=True, figsize=(12, 5),facecolor="white", edgecolor="black",cmap="tab20",legend_kwds={'bbox_to_anchor': (1, 1)}) 
+fig = polys.plot(
+                    "Name",
+                    legend=True,
+                    figsize=(12, 5),
+                    facecolor="white",
+                    edgecolor="black",
+                    cmap="tab20",
+                    legend_kwds={'bbox_to_anchor': (1, 1)},
+                    alpha=0.5
+            ) 
 
-
+fig.set_title('Prefeitura de uberaba 15:57')
 
 plt.axis('off') 
 plt.savefig('./files/legenda.jpg')
