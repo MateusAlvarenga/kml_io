@@ -1,22 +1,27 @@
 import geopandas as gpd
 import matplotlib.pyplot as plt
 from PIL import Image
+import numpy as np
 gpd.io.file.fiona.drvsupport.supported_drivers['KML'] = 'rw'
 
  
 #Leitura do arquivo kml
 fp = "./files/417-86-11687-19052021.kml"
 polys = gpd.read_file(fp, driver='KML')
-
+#print(polys)
 #Plota o mapa
-polys.plot("Name", facecolor="white", edgecolor="black")
+fig = polys.plot("Name", facecolor="white", edgecolor="black")
 plt.axis('off')
+fig.set_title("Titulo")
 plt.savefig('./files/mapa.jpg')
 
 #Plota a legenda
-polys.plot("Name",legend=True)
+plt.rcParams.update({'font.size': 7})
+ 
+plt.box(False)
+ax = polys.plot("Name",legend=True,label='_nolegend_')
 plt.axis('off') 
-
+plt.rcParams.update({'font.size': 10})
 
 plt.savefig('./files/legenda.jpg')
 
@@ -25,7 +30,7 @@ plt.savefig('./files/legenda.jpg')
 image1 = Image.open('./files/mapa.jpg')
 image2 = Image.open('./files/legenda.jpg')
 #Ajuste de tamanho das imagens
-image1 = image1.resize((400, 200))
+image1 = image1.resize((600, 400))
 
 image1_size = image1.size
 image2_size = image2.size
