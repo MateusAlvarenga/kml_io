@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Mapa sem título</name>
+	<Style id="poly-FF00FF-1000-77-nodesc-normal">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dff00ff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="poly-FF00FF-1000-77-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-FF00FF-1000-77-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-FF00FF-1000-77-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-00FF00-1000-77-nodesc-highlight">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00ff00</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="poly-FFFF00-1000-77-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-FFFF00-1000-77-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-FFFF00-1000-77-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-FFAA00-1000-77-nodesc-normal">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00aaff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-AA55FF-1000-77-nodesc-highlight">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff55aa</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dff55aa</color>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-AA55FF-1000-77-nodesc-normal">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff55aa</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dff55aa</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="poly-0000FF-1000-77-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-0000FF-1000-77-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-0000FF-1000-77-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-FFFF00-1000-77-nodesc-normal">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00ffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="poly-00FF00-1000-77-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-00FF00-1000-77-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-00FF00-1000-77-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-FFAA00-1000-77-nodesc-highlight">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00aaff</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00aaff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-0000FF-1000-77-nodesc-highlight">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dff0000</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="poly-FFFFFF-1000-77-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-FFFFFF-1000-77-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-FFFFFF-1000-77-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-FFFFFF-1000-77-nodesc-normal">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dffffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-FFFF00-1000-77-nodesc-highlight">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ffff</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00ffff</color>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-00FF00-1000-77-nodesc-normal">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff00ff00</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4d00ff00</color>
+		</PolyStyle>
+	</Style>
+	<Style id="poly-FF00FF-1000-77-nodesc-highlight">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff00ff</color>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dff00ff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="poly-AA55FF-1000-77-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-AA55FF-1000-77-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-AA55FF-1000-77-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-FFFFFF-1000-77-nodesc-highlight">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<width>1.5</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dffffff</color>
+		</PolyStyle>
+	</Style>
+	<StyleMap id="poly-FFAA00-1000-77-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#poly-FFAA00-1000-77-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#poly-FFAA00-1000-77-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="poly-0000FF-1000-77-nodesc-normal">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ffff0000</color>
+		</LineStyle>
+		<PolyStyle>
+			<color>4dff0000</color>
+		</PolyStyle>
+	</Style>
+	<Folder>
+		<name>Área Empreendimento.kml</name>
+		<Placemark>
+			<name>Área Empreendimento</name>
+			<styleUrl>#poly-FFFF00-1000-77-nodesc</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-47.9882,-19.754559,0 -47.988575,-19.754242,0 -47.988588,-19.754343,0 -47.98859000000001,-19.754412,0 -47.988598,-19.754471,0 -47.988608,-19.754509,0 -47.98862,-19.754557,0 -47.988637,-19.754589,0 -47.988662,-19.754617,0 -47.988637,-19.754637,0 -47.988598,-19.754654,0 -47.98855,-19.754656,0 -47.988497,-19.75465,0 -47.988432,-19.754633,0 -47.988383,-19.75463,0 -47.988342,-19.754627,0 -47.988311,-19.754628,0 -47.988264,-19.754606,0 -47.98824,-19.754592,0 -47.9882,-19.754559,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Pista Abastecimento.kml</name>
+		<Placemark>
+			<name>Pista Abastecimento</name>
+			<styleUrl>#poly-0000FF-1000-77-nodesc</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-47.988429,-19.754504,0 -47.988481,-19.75446,0 -47.988605,-19.754585,0 -47.988552,-19.754629,0 -47.988429,-19.754504,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Administrativo.kml</name>
+		<Placemark>
+			<name>Administrativo</name>
+			<styleUrl>#poly-FFAA00-1000-77-nodesc</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-47.988513,-19.754297,0 -47.988559,-19.754345,0 -47.988491,-19.754408,0 -47.988502,-19.754426,0 -47.988486,-19.754456,0 -47.988431,-19.754505,0 -47.988357,-19.754427,0 -47.988513,-19.754297,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Conveniência.kml</name>
+		<Placemark>
+			<name>Conveniência</name>
+			<styleUrl>#poly-FF00FF-1000-77-nodesc</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-47.98839,-19.754466,0 -47.988273,-19.754563,0 -47.98824,-19.754529,0 -47.988354,-19.75443,0 -47.98839,-19.754466,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Lavador.kml</name>
+		<Placemark>
+			<name>Lavador</name>
+			<styleUrl>#poly-AA55FF-1000-77-nodesc</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-47.988559,-19.75434,0 -47.988517,-19.754296,0 -47.98857,-19.754249,0 -47.988581,-19.754319,0 -47.988559,-19.75434,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>CSAO.kml</name>
+		<Placemark>
+			<name>CSAO</name>
+			<styleUrl>#poly-00FF00-1000-77-nodesc</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-47.988272,-19.754593,0 -47.988261,-19.754603,0 -47.98824299999999,-19.754585,0 -47.98825399999999,-19.754575,0 -47.988272,-19.754593,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+	<Folder>
+		<name>Armazenamento Resíduos.kml</name>
+		<Placemark>
+			<name>Armazenamento Resíduos</name>
+			<styleUrl>#poly-FFFFFF-1000-77-nodesc</styleUrl>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<tessellate>1</tessellate>
+						<coordinates>
+							-47.988547,-19.754275,0 -47.988559,-19.754286,0 -47.988544,-19.754301,0 -47.988531,-19.754289,0 -47.988547,-19.754275,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
