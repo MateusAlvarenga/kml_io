@@ -14,7 +14,7 @@ class Kml_io:
     # @param {caminho_arquivo} string - caminho do arquivo kml a ser convertido
     # @param {caminho_saida} strinh - caminho onde o arquivo convertido será salvo
     # @param {tamanho_fonte} Number - Tamanho da fonte, Valor default = 16
-    # @return - retorna True se o arquivo foi salvo
+    # @return - retorna 200 se o arquivo foi salvo
     def Converte(caminho_arquivo_kml,caminho_saida, tamanho_fonte = 16 ):
         # #Leitura do arquivo kml
         fp = caminho_arquivo_kml
