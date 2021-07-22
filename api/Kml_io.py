@@ -4,10 +4,12 @@ import numpy as np
 import os
 import contextily as ctx
 import kml2geojson
+import glob
 from matplotlib.font_manager import FontProperties
 from mpl_toolkits.axes_grid1 import make_axes_locatable
 from PIL import Image
 from fastapi import HTTPException
+
 
 
 gpd.io.file.fiona.drvsupport.supported_drivers['KML'] = 'rw'
@@ -71,5 +73,10 @@ class Kml_io:
             raise HTTPException(status_code=500, detail="Erro ao salvar")
         else:
             return 200
+
+    def Converte_Diretorio(self, caminho_diretorio):
+        lista_arquivos_kml = glob.glob(caminho_diretorio + "*.kml")
+        return lista_arquivos_kml
+
 
         

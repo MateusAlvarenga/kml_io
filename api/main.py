@@ -3,7 +3,7 @@ from fastapi import FastAPI
 from fastapi.responses import HTMLResponse
 
 from Kml_io import Kml_io
-from Requisicao import Requisicao_padrao
+from Requisicao import Requisicao_padrao, Requisicao_Diretorio
 
 
 app = FastAPI()
@@ -44,3 +44,10 @@ async def Converte(Requisicao: Requisicao_padrao):
     )
 
     return response
+
+#@param {tamanho_fonte} Optional default = 16
+@app.post("/api/Converte_Diretorio/")
+async def Converte_Diretorio(Requisicao: Requisicao_Diretorio):
+    Kml_io_provider = Kml_io()
+    return Kml_io_provider.Converte_Diretorio(Requisicao.caminho_diretorio)
+    

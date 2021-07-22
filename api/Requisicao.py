@@ -10,3 +10,6 @@ class Requisicao_padrao(BaseModel):
     tamanho_fonte: Optional[int] = 8
     altura: Optional[int] = 7
     largura: Optional[int] = 15
+
+class Requisicao_Diretorio(BaseModel):
+    caminho_diretorio: str
