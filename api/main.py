@@ -30,11 +30,17 @@ async def Links():
 #@param {tamanho_fonte} Optional default = 16
 @app.post("/api/Converte/")
 async def Converte(Requisicao: Requisicao_padrao):
+     
     Kml_io_provider = Kml_io()
     
-    response = Kml_io_provider(
-                                Requisicao.caminho_arquivo_kml,
-                                Requisicao.caminho_arquivo_saida
+  
+    response = Kml_io_provider.Converte(
+                    Requisicao.caminho_arquivo_kml,
+                    Requisicao.caminho_arquivo_saida,
+                    Requisicao.tamanho_fonte,
+                    Requisicao.altura,
+                    Requisicao.largura                                
+                                
     )
 
     return response
