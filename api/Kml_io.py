@@ -46,12 +46,14 @@ class Kml_io:
         #remove as referencias de eixo
         plt.axis('off') 
 
-        #salva o arquivo - savefig retorna None caso nao ocorra erros
-        response = plt.savefig(caminho_saida)
+  
 
-        if response == None:
-            return 200
-        else
+        try:
+            #salva o arquivo - savefig retorna None caso nao ocorra erros
+            response = plt.savefig(caminho_saida)
+        except expression as identifier:
             return 400
+        else:
+            return 200
 
         
