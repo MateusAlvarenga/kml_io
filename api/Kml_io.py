@@ -74,7 +74,7 @@ class Kml_io:
         else:
             return 200
 
-    def Converte_Diretorio(self, caminho_diretorio):
+    def Converte_Diretorio(self, caminho_diretorio, caminho_diretorio_saida):
         lista_arquivos_kml = glob.glob(caminho_diretorio + "*.kml")
 
         #for arquivo_kml in lista_arquivos_kml:

@@ -49,5 +49,8 @@ async def Converte(Requisicao: Requisicao_padrao):
 @app.post("/api/Converte_Diretorio/")
 async def Converte_Diretorio(Requisicao: Requisicao_Diretorio):
     Kml_io_provider = Kml_io()
-    return Kml_io_provider.Converte_Diretorio(Requisicao.caminho_diretorio)
+    return Kml_io_provider.Converte_Diretorio(
+                                                Requisicao.caminho_diretorio,
+                                                 Requisicao.caminho_diretorio_saida
+    )
     

@@ -13,3 +13,4 @@ class Requisicao_padrao(BaseModel):
 
 class Requisicao_Diretorio(BaseModel):
     caminho_diretorio: str
+    caminho_diretorio_saida: str
