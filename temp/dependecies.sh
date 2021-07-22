@@ -4,4 +4,4 @@ pip install PIL
 pip install matplotlib 
 pip install mpl_toolkits
 pip install contextily 
-pip isntall kml2geojson
+pip install kml2geojson
