@@ -18,7 +18,11 @@ class Kml_io:
     def Converte(caminho_arquivo_kml,caminho_saida, tamanho_fonte = 16 ):
         # #Leitura do arquivo kml
         fp = caminho_arquivo_kml
-        polys = gpd.read_file(fp)
+        try:
+            polys = gpd.read_file(fp)
+        except:
+            return 400
+        
         
         #Fonte e espaçamento
         plt.tight_layout()
@@ -45,4 +49,9 @@ class Kml_io:
         #salva o arquivo - savefig retorna None caso nao ocorra erros
         response = plt.savefig(caminho_saida)
 
-        return response == None
+        if response == None:
+            return 200
+        else
+            return 400
+
+        
