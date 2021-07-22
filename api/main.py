@@ -17,7 +17,7 @@ async def Links():
         </head>
         <body>
             <ul>
-                <li><a href='/docs'>Docs</a></li>
+                <li><a href='/docs'>Swagger teste a api</a></li>
                 <li><a href='/redoc'>ReDoc</a></li>
             </ul>
         </body>

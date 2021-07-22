@@ -42,14 +42,14 @@ class Kml_io:
 
         #Fonte e espaçamento
         plt.tight_layout()
-        plt.rcParams.update({'font.size': 6}) 
+        plt.rcParams.update({'font.size': tamanho_fonte}) 
         
         #Plota o gráfico
         fig = polys.plot(
                             "Name",
                             legend=True,
                             facecolor="white",
-                            figsize=(altura, largura),
+                            figsize=(largura, altura),
                             edgecolor="black",
                             cmap="tab20",
                             legend_kwds={'bbox_to_anchor': (1, 1)},                    
