@@ -12,23 +12,17 @@ gpd.io.file.fiona.drvsupport.supported_drivers['KML'] = 'rw'
 
  
 # #Leitura do arquivo kml
-fp = "./files/teste.kml"
-
-kml2geojson.main.convert(fp, './json_files/')
-fp = './json_files/teste.geojson'
- 
-#polys = gpd.read_file(fp, driver='KML')
+fp = "/workspace/kml_io/temp/files/teste3.kml"
 polys = gpd.read_file(fp)
  
-
-polys = polys.to_crs(epsg=900913)
+#Fonte e espaçamento
 plt.tight_layout()
 plt.rcParams.update({'font.size': 6}) 
  
-#lg = plt.legend(list(polys["Name"]),bbox_to_anchor=(1.05, 1.0), loc='upper left')
-
-
+ #Plota o gráfico
 fig = polys.plot(
+
+                    "Name",
                     legend=True,
                     facecolor="white",
                     figsize=(20, 20),
@@ -39,7 +33,15 @@ fig = polys.plot(
                    
                 ) 
 
+#Supostamente adicionaria o mapa ao gráfico
 ctx.add_basemap(fig, zoom=4,crs='EPSG:900913', source=ctx.providers.CartoDB.Voyager)
 
+#remove as referencias de eixo
 plt.axis('off') 
-plt.savefig('./files/legenda.jpg')
+
+#salva o arquivo
+response = plt.savefig('./files/legenda3333.jpg')
+
+print(response == None)
+
+

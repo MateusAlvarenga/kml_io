@@ -8,8 +8,9 @@ gpd.io.file.fiona.drvsupport.supported_drivers['KML'] = 'rw'
 
   
 # #Leitura do arquivo kml
-fp = "./files/417-86-11687-19052021.kml"
-polys = gpd.read_file(fp, driver='KML')
+fp = "/workspace/kml_io/temp/files/teste3.kml"
+
+polys = gpd.read_file(fp)
 
 plt.tight_layout()
 plt.rcParams.update({'font.size': 6}) 

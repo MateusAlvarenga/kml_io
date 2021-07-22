@@ -8,7 +8,7 @@ gpd.io.file.fiona.drvsupport.supported_drivers['KML'] = 'rw'
 
   
 # #Leitura do arquivo kml
-fp = "./files/teste.kml"
+fp = "/workspace/kml_io/temp/files/teste3.kml"
 polys = gpd.read_file(fp, driver='KML')
 
 plt.tight_layout()
