@@ -7,6 +7,6 @@ from typing import Optional
 class Requisicao_padrao(BaseModel):
     caminho_arquivo_kml: str
     caminho_arquivo_saida: str
-    tamanho_fonte: Optional[int] = 7
+    tamanho_fonte: Optional[int] = 8
     altura: Optional[int] = 7
     largura: Optional[int] = 15
