@@ -1,11 +1,11 @@
 import geopandas as gpd
 import matplotlib.pyplot as plt
-from PIL import Image
 import numpy as np
-from matplotlib.font_manager import FontProperties
-from mpl_toolkits.axes_grid1 import make_axes_locatable
 import contextily as ctx
 import kml2geojson
+from matplotlib.font_manager import FontProperties
+from mpl_toolkits.axes_grid1 import make_axes_locatable
+from PIL import Image
 
 gpd.io.file.fiona.drvsupport.supported_drivers['KML'] = 'rw'
  
@@ -26,7 +26,6 @@ class Kml_io:
         
         #Plota o gráfico
         fig = polys.plot(
-
                             "Name",
                             legend=True,
                             facecolor="white",
@@ -34,8 +33,7 @@ class Kml_io:
                             edgecolor="black",
                             cmap="tab20",
                             legend_kwds={'bbox_to_anchor': (1, 1)},                    
-                            alpha=0.5
-                        
+                            alpha=0.5                        
                         ) 
 
         #Supostamente adicionaria o mapa ao gráfico

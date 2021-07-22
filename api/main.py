@@ -24,6 +24,10 @@ async def Links():
     </html>
     """
 
+
+#@param {caminho_arquivo_kml} str
+#@param {caminho_arquivo_kml} str
+#@param {tamanho_fonte} Optional default = 16
 @app.post("/api/Converte/")
 async def Converte(Requisicao: Requisicao_padrao):
     Kml_io_provider = Kml_io()
