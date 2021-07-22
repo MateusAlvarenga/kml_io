@@ -8,3 +8,10 @@
 
 >instalando dependencias
     pip install -r requirements.txt
+
+
+___
+>desativando virtualenv
+    deactive
+
+>listar dependencias pip freeze
