@@ -45,7 +45,7 @@ async def Converte(Requisicao: Requisicao_padrao):
 
     return response
 
-#@param {tamanho_fonte} Optional default = 16
+
 @app.post("/api/Converte_Diretorio/")
 async def Converte_Diretorio(Requisicao: Requisicao_Diretorio):
     Kml_io_provider = Kml_io()
