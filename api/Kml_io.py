@@ -1,3 +1,5 @@
+#@author Mateus Alarenga Pereira - github.com/MateusAlvarenga
+
 import geopandas as gpd
 import matplotlib.pyplot as plt
 import numpy as np

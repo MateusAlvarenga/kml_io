@@ -1,3 +1,5 @@
+#@author Mateus Alarenga Pereira - github.com/MateusAlvarenga
+
 from pydantic import BaseModel
 from typing import Optional
 
